@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cta {
+    width: 1410px; 
+    height: 1440px; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-rows: 500px auto 568px; 
+    align-items: center;
+    text-align: center;
+}
+
+.topthird {
+    height: 500px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.topthird h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 141%;
+}
+
+.topthird p {
+    width: 422px;
+    height: 85px;
+    top: 203px;
+    font-size: 20px;
+    line-height: 141%;
+    
+}
+
+.topbutton {
+    width: 200px;
+    height: 60px;
+    top: 312px;
+    left: 620px;  
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+  
+}
+
+
+.middlethird {
+    height: 240px;
+    width: 100%;
+    top: 547px;
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center;
+    background-color: lightgray;
+    padding: 0 150px;
+    row-gap: 5px;
+    margin-top: 66px;
+    margin-bottom: 66px;
+}
+
+
+
+.middle-container {
+    text-align: left;
+}
+
+.middle-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.middle-container p {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.button-container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 7px;
+}
+
+.middlebuttonstart {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 48px;
+    top: 96px;
+    left: 789px;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.middlebuttoncontact {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height:48px;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 135%;
+    border: 1px solid black;
+}
+
+.bottomthird {
+    height: 568px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: lightgray;
+    row-gap: 5px;
+}
+
+.bottomthird p {
+    font-size: 20px;
+    line-height: 141%;
+    margin-bottom: 3px;
+    margin-top: 25px;;
+}
+
+.bottomthird input {
+    width: 360px;
+    height: 64px;
+    padding: 5px;
+    margin-bottom: 2px;
+    border-radius: 12px;
+}
+
+
+.bottomthird input[type="email"] {
+    top: 196px;
+    left: 540px;
+    border-radius: 5px;
+    border: 1px black;
+    font-size: 20px;
+    line-height: 141%;
+}
+
+.bottomthird input[type="password"] {
+    top: 276px;
+    left: 540px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 141%;
+}
+
+.bottombutton {
+    background-color: black;
+    color: white;
+    width: 360px;
+    height: 64px;
+    padding: 8px 12px;
+}
